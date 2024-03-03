@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "d20 search",
+  "version": "1.0",
+
+  "description": "",
+
+  "icons": {
+    "256": "icons/d20pfsrd-logo-256.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.mozilla.org/*"],
+      "js": ["d20search.js"]
+    }
+  ]
+}
+
