@@ -1,19 +1,22 @@
 {
   "manifest_version": 2,
-  "name": "d20 search",
+  "name": "d20pfsrd search",
   "version": "1.0",
 
-  "description": "",
+  "description": "Search on the d20pfsrd page directly.",
 
   "icons": {
     "256": "icons/d20pfsrd-logo-256.png"
   },
 
-  "content_scripts": [
-    {
-      "matches": ["*://*.mozilla.org/*"],
-      "js": ["d20search.js"]
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "d20pfsrd",
+      "keyword": "@d20",
+      "favicon_url": "favicon.png",
+      "search_url": "https://cse.google.com/cse?cx=006680642033474972217%3A6zo0hx_wle8&q={searchTerms}",
+      "is_default": false,
+      "encoding": "UTF-8"
     }
-  ]
+  }
 }
-
