@@ -3,10 +3,10 @@
   "name": "d20pfsrd search",
   "version": "1.0",
 
-  "description": "Search on the d20pfsrd page directly.",
+  "description": "Search on the d20pfsrd page directly from the browser bar.",
 
   "icons": {
-    "256": "icons/d20pfsrd-logo-256.png"
+    "256": "icons/icon-48.png"
   },
 
   "chrome_settings_overrides": {
