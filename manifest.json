@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "d20pfsrd search",
-  "version": "1.1",
+  "version": "1.1.1",
 
   "description": "Search on the d20pfsrd page directly from the browser bar.",
 
